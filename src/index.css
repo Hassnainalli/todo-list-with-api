@@ -95,6 +95,9 @@ ol li{
   display: flex;
   justify-content: flex-end;
 }
+.MuiDataGrid-cell--withRenderer.MuiDataGrid-cell.MuiDataGrid-cell--textLeft {
+  max-width: unset !important;
+}
 
 @media (max-width:768) {
   .center_div{
